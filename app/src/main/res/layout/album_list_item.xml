@@ -56,12 +56,11 @@
                         android:id="@+id/txtAlbumId"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@{album.albumId.toString()}"/>
+                        android:text="@{@string/album_id.concat(album.albumId.toString())}"/>
                     <TextView
                         android:id="@+id/txtAlbumTitle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-
                         android:text="@{album.title}"/>
                 </LinearLayout>
 
